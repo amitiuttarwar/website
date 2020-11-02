@@ -498,9 +498,11 @@ section {
   background-color: #e7f8f6;
 }
 
+/* the ABOUT page heading and top description, ABOUT then SKILLS ..*/
 .section-title {
   text-align: center;
   padding-bottom: 30px;
+  /*color: #8B0000;*/
 }
 
 .section-title h2 {
@@ -581,14 +583,32 @@ section {
 }
 
 /*--------------------------------------------------------------
-# About
+# About section of the About page
 --------------------------------------------------------------*/
+/*section under About that says "illustrator & ui / ux designer */
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
   color: #555555;
 }
 
+.about-img {
+  display: block;
+  margin: auto;
+  width: 70%;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+.about-img2 {
+  display: block;
+  margin: auto;
+  width: 50%;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+/*bullet points text under illustrator and ui / ux designer */
 .about .content ul {
   list-style: none;
   padding: 0;
@@ -598,12 +618,14 @@ section {
   padding-bottom: 10px;
 }
 
+/*(the bullet points themselves) themselves under illustrator and ui / ux designer */
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
   color: #34b7a7;
 }
 
+/*(the bottom text) under illustrator and ui / ux designer */
 .about .content p:last-child {
   margin-bottom: 0;
 }
