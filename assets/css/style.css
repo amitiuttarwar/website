@@ -385,7 +385,21 @@ h1, h2, h3, h4, h5, h6 {
 # Header Social Links
 --------------------------------------------------------------*/
 .header-social-links {
-  padding-left: 20px;
+  position: absolute;
+  padding: 20px;
+  display: inline;
+  width: 100%;
+  text-align: end;
+}
+
+@media (max-width: 992px) {
+  .header-social-links {
+    position: relative;
+    padding: 20px;
+    display: inline;
+    width: 100%;
+    text-align: end;
+  }
 }
 
 .header-social-links a {
@@ -415,6 +429,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   background: url("../img/hero-bg.jpg") top right;
   background-size: cover;
+  background-position: 30%;
 }
 
 #hero .container {
