@@ -388,8 +388,9 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   padding: 20px;
   display: inline;
-  width: 100%;
+  width: 150px;
   text-align: end;
+  right: 0px;
 }
 
 @media (max-width: 992px) {
